@@ -16,9 +16,11 @@ A Union-Find client was developed to utilize the UF_HWQUPC implementation. The c
 ## Performance Analysis and Observations
 The assignment also included an analysis of the relationship between the number of objects (n) and the number of pairs generated (m) to connect all sites. My findings, supported by extensive experimentation, indicated a linear relationship between the number of objects and the number of pairs required for complete connectivity. The empirical relationship determined from the experiments can be succinctly expressed as:
 
-    M = 1.2 \cdot N \log N
+<img width="186" alt="image" src="https://github.com/pramitij/Height-weighted-Quick-Union-with-Path-Compression/assets/19503874/15c7ef8c-f905-4bb2-a2cd-e79dbdef9a97">
 
 This formula was derived from plotting the experimental data and fitting a curve that best described the relationship between N and M. The coefficient 1.2 was obtained through this curve-fitting process, highlighting the efficiency of the height-weighted Quick Union with Path Compression in reducing the total number of operations required to achieve full connectivity.
+
+<img width="472" alt="image" src="https://github.com/pramitij/Height-weighted-Quick-Union-with-Path-Compression/assets/19503874/f16daf98-aa97-4c36-ba2d-805e5dabd3ae">
 
 ## Conclusion
 The implementation of the UF_HWQUPC class and the UF_Client demonstrated the effectiveness of height-weighting and path compression in optimizing the performance of union-find operations. The performance analysis provided a quantitative understanding of the algorithm's scalability, reaffirming its suitability for large-scale dynamic connectivity problems. This assignment not only strengthened my understanding of advanced data structures and algorithms but also provided a robust framework for efficiently managing connectivity queries within large datasets.
