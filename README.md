@@ -16,8 +16,7 @@ A Union-Find client was developed to utilize the UF_HWQUPC implementation. The c
 ## Performance Analysis and Observations
 The assignment also included an analysis of the relationship between the number of objects (n) and the number of pairs generated (m) to connect all sites. My findings, supported by extensive experimentation, indicated a linear relationship between the number of objects and the number of pairs required for complete connectivity. The empirical relationship determined from the experiments can be succinctly expressed as:
 
-    ``` latex
-        M = 1.2 \cdot N \log N
+    M = 1.2 \cdot N \log N
 
 This formula was derived from plotting the experimental data and fitting a curve that best described the relationship between N and M. The coefficient 1.2 was obtained through this curve-fitting process, highlighting the efficiency of the height-weighted Quick Union with Path Compression in reducing the total number of operations required to achieve full connectivity.
 
